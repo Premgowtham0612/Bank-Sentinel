@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-# Load the dataset
+# Load the data set
 df = pd.read_csv(r"C:\Users\kodad\Downloads\Bank_Churn(in).csv")
 
 # Display column names to understand structure
