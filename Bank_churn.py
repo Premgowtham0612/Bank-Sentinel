@@ -7,7 +7,7 @@ df = pd.read_csv(r"C:\Users\kodad\Downloads\Bank_Churn(in).csv")
 # Display column names to understand structure
 print("Available columns:", df.columns)
 ...........
-
+ 
 # Calculate Average Balance
 if 'Balance' in df.columns:
     avg_balance = df['Balance'].mean()
