@@ -10,7 +10,7 @@ print("Available columns:", df.columns)
 
 # Calculate Average Balance
 if 'Balance' in df.columns:
-    avg_balance = df['Balance'].mean()
+    avg_balance = df['Balance'].mean() 
     print(f"Average Balance: {avg_balance:.2f}")
 
 # Calculate Average Credit Score
